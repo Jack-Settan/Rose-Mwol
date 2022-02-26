@@ -1,7 +1,7 @@
 let fs = require('fs')
 global.owner = ['919744933034'] // Put your number here !!
 global.mods = ['917907804579'] // Moderator ?
-global.prems = JSON.parse(fs.readFileSync('./src/premium.json')) // Pengguna premium tidak memerlukan limit
+global.prems = JSON.parse(fs.readFileSync('./src/premium.json')) // Premium users do not need a limit
 global.APIs = { // API Prefix
   // nama: 'https://website'
   bx: 'https://bx-hunter.herokuapp.com',
